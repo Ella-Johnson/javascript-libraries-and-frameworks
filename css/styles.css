@@ -1,0 +1,26 @@
+body {
+    background-color: maroon;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: antiquewhite;
+    margin-top: 60px;
+}
+
+.splide {
+    width: 800px;
+    height: 400px;
+    text-align: center;
+    background-color: 
+rgb(3, 3, 47);
+    margin: 0 auto;
+}
+
+
+.splide__slide__container img {
+    height: 400px;
+    object-fit: contain;
+    object-position: 50% 50%;
+}

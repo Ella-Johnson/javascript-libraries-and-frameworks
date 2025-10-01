@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/splide.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+        <h1 class="wizards">Slideshow using Splidejs</h1>  
+
+    <section id="image-carousel" class="splide" aria-label="Fall Images">
+        <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide">
+                      <div class="splide__slide__container"><img src="img/fallleaves.jpg" alt="fallleaves"></div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="splide__slide__container"><img src="img/coffee.jpg" alt="coffee"></div>
+                  </li>
+                  <li class="splide__slide">
+                      <div class="splide__slide__container"><img src="img/fallroad.jpg" alt="fallroad"></div>
+                  </li>
+                  <li class="splide__slide">
+                    <div class="splide__slide__container"><img src="img/pumpkins.jpg" alt="pumpkins"></div>
+                </li>
+                <li class="splide__slide">
+                    <div class="splide__slide__container"><img src="img/fallwalk.jpg" alt="fallwalk"></div>
+                </li>
+              </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/splide.min.js"></script>
+    <script>
+        new Splide( '#image-carousel', {
+            heightRatio: 0.5,
+        }).mount();
+    </script>
+
+  </body>
+</html>

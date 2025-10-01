@@ -1,9 +1,10 @@
 @font-face {
     font-family: "Wizards Magic";
-    src: local("Wizards Magic"), url("fonts/wizardsmagic.ttf") format(".ttf");
+    /* src: local("Wizards Magic") */
+    src: url("fonts/wizardsmagic.ttf") format("truetype");
 }
 
-h1 {
+.wizards {
     font-family: "Wizards Magic", sans-serif;
 }
 
